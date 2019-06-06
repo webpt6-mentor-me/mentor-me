@@ -137,21 +137,17 @@ html body {
   color: #2B2F3B;
   font-size: 1.6rem;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  color: #4C5264;
-}
 h1 {
+  color: #5574F7;
   font-size: 5rem;
 }
 h2 {
+  color: #BCC5D3;
   font-size: 3.2rem;
 }
-p {
-  line-height: 1.5rem;
+h3 {
+  color: #FFFFFF;
+  font-size: 3.2rem;
 }
 .container {
   max-width: 800px;
@@ -159,20 +155,48 @@ p {
   margin: 0 auto;
 }
 .nav-div {
-  height: 100px;
+  height: 7rem;
   width: 100%;
-  background-blend-mode: color;
-  background-color: #60C3FF;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   justify-content: space-between;
   align-items: center;
 }
 .nav-div .logo-img {
-  width: 40px;
-  height: 50px;
+  width: 4rem;
+  height: 5rem;
+}
+.nav {
+  width: 32rem;
+  display: flex;
+  justify-content: space-between;
 }
 a {
   text-decoration: none;
   color: #707070;
+}
+.banner-sec {
+  background-image: url("img/Screenshot_2019-06-05 MentorMe.png");
+}
+.banner-sec {
+  display: flex;
+}
+.banner-text {
+  margin-top: 2.5rem;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.ment-div {
+  height: 50rem;
+  width: 30rem;
+  padding: 2rem;
+  background-color: #4C5264;
+  color: #BCC5D3;
+  font-size: 2rem;
+}
+.app-sec {
+  background-color: #BCC5D3;
 }
