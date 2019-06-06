@@ -176,11 +176,13 @@ a {
   text-decoration: none;
   color: #707070;
 }
-.banner-sec {
-  background-image: url("img/Screenshot_2019-06-05 MentorMe.png");
+body {
+  background-image: url("img/logo.png");
+  background-size: cover;
 }
 .banner-sec {
   display: flex;
+  margin-bottom: 4rem;
 }
 .banner-text {
   margin-top: 2.5rem;
@@ -193,10 +195,40 @@ a {
   height: 50rem;
   width: 30rem;
   padding: 2rem;
+  margin-bottom: 4rem;
   background-color: #4C5264;
   color: #BCC5D3;
+  font-size: 2rem;
+  border-radius: 4px;
+}
+.mentors,
+.mentees {
+  padding-bottom: 1rem;
+}
+.mentors-img,
+.mentees-img {
+  height: 15rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.join {
+  padding-bottom: 1rem;
+}
+.join-btn {
+  height: 4rem;
+  border-radius: 8px;
+  background-color: #60C3FF;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
   font-size: 2rem;
 }
 .app-sec {
   background-color: #BCC5D3;
+  border-radius: 2px;
+  padding: 2rem;
+}
+#app-h2 {
+  color: #FFFFFF;
+  padding-bottom: 1rem;
 }
