@@ -149,8 +149,12 @@ h3 {
   color: #FFFFFF;
   font-size: 3.2rem;
 }
+h4 {
+  color: #4C5264;
+  font-size: 2rem;
+}
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -176,17 +180,27 @@ a {
   text-decoration: none;
   color: #707070;
 }
-.bg-img {
-  background-image: url("img/Lucy.png");
-  height: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.footer-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 2rem 0;
+}
+.copyright {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 .banner-sec {
   display: flex;
   margin-bottom: 4rem;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2rem;
 }
 .banner-text {
   margin-top: 2.5rem;
