@@ -7,4 +7,4 @@
 
 
 
-let buttons = document.querySelectorAll(".join-btn").forEach(button => new ButtonsLink(button));
+let buttons = document.querySelectorAll(".join-btn", (event));

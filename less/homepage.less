@@ -1,3 +1,4 @@
+// Header Content
 .banner-sec {
     display: flex;
     margin-bottom: 4rem;
@@ -14,6 +15,7 @@
     margin-top: 2.5rem;
 }
 
+// Main Content
 .main {
     display: flex;
     justify-content: space-between;
@@ -53,7 +55,7 @@
     border: 1px solid @white-1;
     font-size: 2rem;
 }
-
+// Tabs
 .app-sec {
     background-color: @grey-1;
     border-radius: 2px;
@@ -63,4 +65,44 @@
 #app-h2 {
     color: @white-1;
     padding-bottom: 1rem;
+}
+
+.app-text {
+    padding-bottom: 2rem;
+}
+
+.tab-box {
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    overflow: hidden;
+    border: 2px solid @blue-1;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+}
+
+.tab button {
+    background-color: @grey-2;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.4s;
+}
+
+.tab button:hover {
+    background-color: @dark-2;
+    color: @white-1;
+}
+
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid @blue-1;
+    border-top: none;
 }

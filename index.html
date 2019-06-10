@@ -14,7 +14,7 @@
         <header>
             <nav>
                 <div class="nav-div">
-                        <img class="logo-img" src="img/logo.png" alt="Brand logo">
+                        <a href="index.html"><img class="logo-img" src="img/logo.png" alt="Brand logo"></a>
                         <!-- <img class="bg-img" src="#" alt="Background image"> -->
                     <div class="nav">
                         <a href="index.html">Home</a>
@@ -25,11 +25,12 @@
                 </div>
             </nav>
         </header>
+<!-- Main Content -->
         <div class="bg-img">
             <div class="container">
                 <section class="banner-sec">
                     <div class="banner">
-                        <h1 class="banner-h1">Be My Mentor</h1>
+                        <h1 class="banner-h1">Facilitating Lasting Business Relationships</h1>
                         <h2 class="banner-text">The app connecting experienced business mentors to entrepreneurs worldwide.</h2>
                     </div>
                     <div class="logo-img">
@@ -65,26 +66,38 @@
                 </section>
                 <section class="app-sec">
                     <div class="app-div">
-                        <h2 id="app-h2">Be sure to download the Be My Mentor app after you join!</h2>
-                        <!-- Add app download here! -->
+                        <h2 id="app-h2">Be sure to download the Mentor Me app after you join!</h2>
+<!-- Add app download here! -->
                         <h4 class="app-text">Here are a few key features to get you started with the Be My Mentor app.</h4>
                     </div>
-                    <div class="app-fts">
-                        <p>Register</p>
-                        <img src="#" alt="Registration image">
-                    </div>
-                    <div class="app-fts">
-                        <p>Create a Profile</p>
-                        <img src="#" alt="Profile image">
-                    </div>            
-                    <div class="app-fts">
-                        <p>Search for Your Field</p>
-                        <img src="#" alt="Search image">
-                    </div> 
-                    <div class="app-fts">
-                        <p>Get Connected</p>
-                        <img src="#" alt="Message image">
-                    </div>           
+<!-- Tabs -->
+                    <div class="tab-box">
+                        <div class="tab">
+                            <button class="tablink" onclick="openTab(event,'Register')">Register</button>
+                            <button class="tablink" onclick="openTab(event,'Profile')">Create a Profile</button>
+                            <button class="tablink" onclick="openTab(event,'Search')">Search for Your Field</button>
+                            <button class="tablink" onclick="openTab(event,'Connect')">Get Connected</button>
+                        </div>            
+                    </div>   
+<!-- Tab Content -->
+                        <div id="Register" class="tabContent">
+                            <h3>Register</h3>
+                            <img src="img/Register.png" alt="Registration image">
+                        </div>
+                        <div id="Profile" class="tabContent">
+                            <h3>Create a Profile</h3>
+                            <img src="img/Profile.png" alt="Profile image">
+                        </div>
+                        <div id="Search" class="tabContent">
+                            <h3>Search for Your Field</h3>
+                            <img src="img/Search.png" alt="Search image">
+                        </div>
+                        <div id="Connect" class="tabContent">
+                            <h3>Get Connected</h3>
+                            <img src="img/Connect.png" alt="Message image">
+                        </div>
+         
+
                 </section>
                 <footer>
                     <div class="footer-nav">

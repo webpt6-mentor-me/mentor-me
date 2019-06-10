@@ -250,3 +250,37 @@ a {
   color: #FFFFFF;
   padding-bottom: 1rem;
 }
+.app-text {
+  padding-bottom: 2rem;
+}
+.tab-box {
+  display: flex;
+  justify-content: center;
+}
+.tab {
+  overflow: hidden;
+  border: 2px solid #5574F7;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+}
+.tab button {
+  background-color: #E2E8ED;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.4s;
+}
+.tab button:hover {
+  background-color: #4C5264;
+  color: #FFFFFF;
+}
+.tabContent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #5574F7;
+  border-top: none;
+}
