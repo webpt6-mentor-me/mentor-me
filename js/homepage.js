@@ -15,7 +15,7 @@ function openTab(event, tabName) {
 
 }
 
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
 
 
 
