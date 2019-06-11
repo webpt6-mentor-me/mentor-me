@@ -358,9 +358,9 @@ a {
     font-size: 1.7rem;
   }
 }
-@media (max-width: 417px) {
+@media (max-width: 427px) {
   .logo-img img {
-    height: 20.5rem;
+    height: 20rem;
     width: 13.4rem;
   }
   .banner-h1 {
