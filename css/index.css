@@ -198,22 +198,24 @@ a {
   margin-bottom: 4rem;
 }
 .banner {
+  width: 60rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-right: 2rem;
   padding-left: 10px;
+  margin-right: 3rem;
 }
 .banner-text {
-  margin-top: 25.5rem;
+  margin-top: 3.5rem;
 }
 .main {
   display: flex;
   justify-content: space-between;
 }
 .logo-img img {
-  height: 38.5rem;
-  width: 29.4rem;
+  height: 32.5rem;
+  width: 25.4rem;
   padding-right: 10px;
 }
 .ment-div {
@@ -345,6 +347,9 @@ a {
 @media (max-width: 605px) {
   .join2 {
     display: none;
+  }
+  .banner {
+    margin-right: 0;
   }
 }
 @media (max-width: 579px) {
