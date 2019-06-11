@@ -38,28 +38,22 @@
                     </div>
                 </section>
                 <section class="main">
-                    <div class="ment-div">
+                    <div class="ment-div ment-div-left">
                         <div class="main-text">
                             <h3 class="mentors">Mentor</h3>
                             <p class="join">Mentors are well established business leaders  across hundreds of disciplines worldwide with the knowledge and insights that up-and-coming entrepreneurs need.</p>
-                            <p class="join">If you would like to share your experience with entrepreneurs new to your field of expertise, join our Mentor program today!</p>
-                        </div>
-                        <div class="mentors-img">
-                            <img class="main-img" src="#" alt="Mentor image">
+                            <p class="join join2" >If you would like to share your experience with entrepreneurs new to your field of expertise, join our Mentor program today!</p>
                             <button class="join-btn">Be a Mentor</button>
                         </div>
                     </div>
-                    <div class="connect-div">
-                        <img class="connect-img" src="#" alt="Connect image">
-                    </div>
+                    <!-- <div class="connect-div">
+                        <img class="connect-img" src="#">
+                    </div> -->
                     <div class="ment-div">
                         <div class="main-text">
                             <h3 class="mentees">Mentee</h3>
                             <p class="join">Mentees are entrepreneurs looking for sound advise from experienced and reliable experts in their field on topics from best practices to meeting fulfillment needs and much more.</p>
-                            <p class="join">If you could use the peace of mind knowing you have years of experienced advise at your fingertips, join our Mentee program today!</p>
-                        </div>
-                        <div class="mentees-img">
-                            <img class="main-img" src="#" alt="Mentee image">
+                            <p class="join join2">If you could use the peace of mind knowing you have years of experienced advise at your fingertips, join our Mentee program today!</p>
                             <button class="join-btn">Be a Mentee</button>                   
                         </div>
                     </div>
@@ -68,33 +62,45 @@
                     <div class="app-div">
                         <h2 id="app-h2">Be sure to download the Mentor Me app after you join!</h2>
 <!-- Add app download here! -->
-                        <h4 class="app-text">Here are a few key features to get you started with the Be My Mentor app.</h4>
+                        <h4 class="app-text">Here are a few key features to get you started with the Mentor Me app:</h4>
                     </div>
 <!-- Tabs -->
                     <div class="tab-box">
                         <div class="tab">
-                            <button class="tablink" onclick="openTab(event,'Register')">Register</button>
+                            <button class="tablink" id="defaultOpen" onclick="openTab(event,'Register')">Register</button>
                             <button class="tablink" onclick="openTab(event,'Profile')">Create a Profile</button>
                             <button class="tablink" onclick="openTab(event,'Search')">Search for Your Field</button>
-                            <button class="tablink" onclick="openTab(event,'Connect')">Get Connected</button>
+                            <button class="tablink" onclick="openTab(event,'Connect')">Connect</button>
                         </div>            
                     </div>   
 <!-- Tab Content -->
                         <div id="Register" class="tabContent">
-                            <h3>Register</h3>
-                            <img src="img/Register.png" alt="Registration image">
+                                <span class="top-right" onclick="this.parentElement.style.display='none'">x</span>
+                                <h3>Register</h3>
+                            <div class="inside">
+                                <img src="img/Register.png" alt="Registration image">
+                            </div>
                         </div>
                         <div id="Profile" class="tabContent">
-                            <h3>Create a Profile</h3>
-                            <img src="img/Profile.png" alt="Profile image">
+                                <span class="top-right" onclick="this.parentElement.style.display='none'">x</span>
+                                <h3>Create a Profile</h3>
+                            <div class="inside">
+                                <img src="img/Profile.png" alt="Profile image">
+                            </div>
                         </div>
                         <div id="Search" class="tabContent">
-                            <h3>Search for Your Field</h3>
-                            <img src="img/Search.png" alt="Search image">
+                                <span class="top-right" onclick="this.parentElement.style.display='none'">x</span>
+                                <h3>Search for Your Field</h3>
+                            <div class="inside">
+                                <img src="img/Search.png" alt="Search image">
+                            </div>
                         </div>
                         <div id="Connect" class="tabContent">
-                            <h3>Get Connected</h3>
-                            <img src="img/Connect.png" alt="Message image">
+                                <span class="top-right" onclick="this.parentElement.style.display='none'">x</span>
+                                <h3>Get Connected</h3>
+                            <div class="inside">
+                                <img src="img/Connect.png" alt="Message image">
+                            </div>
                         </div>
          
 
@@ -106,10 +112,10 @@
                         <a href="#">Mentor</a>
                         <a href="#">Mentee</a>
                         <a href="#">Contact Us</a>
-                        <a href="#">Services</a>
+                        <!-- <a href="#">Services</a> -->
                         <a href="#">Terms of Use</a>
-                        <a href="#">Job Opportunities</a>
-                        <a href="#">Corporate</a>                      
+                        <!-- <a href="#">Job Opportunities</a> -->
+                        <!-- <a href="#">Corporate</a>                       -->
                     </div>
                     <div class="copyright">
                         <p class="cpyrt">Copyright 2019</p>

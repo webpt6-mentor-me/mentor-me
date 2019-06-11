@@ -173,6 +173,7 @@ h4 {
 }
 .nav {
   width: 32rem;
+  margin-left: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -201,6 +202,7 @@ a {
   flex-direction: column;
   justify-content: center;
   padding-right: 2rem;
+  padding-left: 10px;
 }
 .banner-text {
   margin-top: 2.5rem;
@@ -208,6 +210,11 @@ a {
 .main {
   display: flex;
   justify-content: space-between;
+}
+.logo-img img {
+  height: 38.5rem;
+  width: 29.4rem;
+  padding-right: 10px;
 }
 .ment-div {
   height: 50rem;
@@ -219,19 +226,32 @@ a {
   font-size: 2rem;
   border-radius: 4px;
 }
+.ment-div-left {
+  margin-right: 1rem;
+}
 .mentors,
 .mentees {
   padding-bottom: 1rem;
 }
 .mentors-img,
 .mentees-img {
-  height: 15rem;
+  height: 7.5rem;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
+}
+.main-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 .join {
   padding-bottom: 1rem;
+}
+.join2 {
+  padding-bottom: 7rem;
 }
 .join-btn {
   height: 4rem;
@@ -247,7 +267,8 @@ a {
   padding: 2rem;
 }
 #app-h2 {
-  color: #FFFFFF;
+  font-weight: 700;
+  color: #5574F7;
   padding-bottom: 1rem;
 }
 .app-text {
@@ -256,10 +277,11 @@ a {
 .tab-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 .tab {
   overflow: hidden;
-  border: 2px solid #5574F7;
+  border: 2px solid #BCC5D3;
   background-color: #f1f1f1;
   display: flex;
   justify-content: center;
@@ -281,6 +303,136 @@ a {
 .tabContent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #5574F7;
-  border-top: none;
+  border: none;
+}
+.tabContent img {
+  margin: 0 4rem 0 4rem;
+}
+.inside {
+  display: flex;
+  justify-content: center;
+}
+.tabContent h3 {
+  margin-bottom: 2rem;
+}
+.top-right {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+@media (max-width: 715px) {
+  .container {
+    width: 100%;
+  }
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .join {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 630px) {
+  .logo-img img {
+    height: 32.5rem;
+    width: 23.4rem;
+  }
+}
+@media (max-width: 605px) {
+  .join2 {
+    display: none;
+  }
+}
+@media (max-width: 579px) {
+  .logo-img img {
+    height: 25.5rem;
+    width: 17.4rem;
+  }
+  .banner-h1 {
+    font-size: 3.7rem;
+  }
+  .banner-text {
+    font-size: 2.5rem;
+  }
+  .join-btn {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 417px) {
+  .logo-img img {
+    height: 20.5rem;
+    width: 13.4rem;
+  }
+  .banner-h1 {
+    font-size: 2.9rem;
+  }
+  .banner-text {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 378px) {
+  .banner-h1 {
+    font-size: 2.9rem;
+  }
+  .banner-text {
+    font-size: 2rem;
+    margin-top: 1.9rem;
+  }
+  .footer-nav a {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 328px) {
+  .banner {
+    padding-right: 1.2rem;
+  }
+  .banner-h1 {
+    font-size: 2.5rem;
+  }
+  .banner-text {
+    font-size: 1.6rem;
+  }
+  .logo-img img {
+    height: 15.5rem;
+    width: 11.4rem;
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ment-div {
+    height: 30rem;
+    width: 100%;
+  }
+  .ment-div-left {
+    margin-right: 0;
+  }
+}
+@media (max-width: 300px) {
+  .nav-div .nav a {
+    font-size: 1rem;
+  }
+  .banner {
+    padding-right: 1.2rem;
+  }
+  .banner-h1 {
+    font-size: 2.2rem;
+  }
+  .banner-text {
+    font-size: 1.6rem;
+  }
+  .logo-img img {
+    height: 11.5rem;
+    width: 8.4rem;
+  }
+  .mentors-img,
+  .mentees-img {
+    height: 6rem;
+  }
+  .tab button {
+    padding: 8px 10px;
+    font-size: 0.7rem;
+  }
 }
