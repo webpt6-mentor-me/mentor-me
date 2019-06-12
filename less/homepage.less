@@ -1,8 +1,16 @@
-
+//Background
+.bg-img {
+    background-image: url("../img/bg1.jpg");
+    height: 93rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 // Header Content
 .banner-sec {
     display: flex;
     margin-bottom: 4rem;
+    padding-top: 2rem;
 }
 
 .banner {
@@ -20,6 +28,10 @@
 }
 
 // Main Content
+.container{
+    z-index: 1 !important;
+    opacity: 1 !important;
+}
 .main {
     display: flex;
     justify-content: space-between;
@@ -29,6 +41,7 @@
     height: 32.5rem;
     width: 25.4rem;
     padding-right: 10px;
+    margin-top: 20px;
 }
 
 .ment-div {
@@ -218,9 +231,10 @@
     }
 }
 
-@media (max-width: 378px) {
+@media (max-width: 380px) {
     .banner-h1 {
         font-size: 2.9rem;
+        margin-top: 2rem;
     }
     .banner-text {
         font-size: 2rem;
